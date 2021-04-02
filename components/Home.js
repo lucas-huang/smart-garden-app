@@ -1,6 +1,8 @@
 import React from 'react';
 import {Button, Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 
+import { db } from '../config';
+
 function Home(props) {
     return (
         <View style={styles.container}>
@@ -9,7 +11,7 @@ function Home(props) {
             </Text>
             <TouchableOpacity style = {{display: 'flex'}}
                 onPress={() =>
-                    navigation.navigate('Home')
+                    console.log('ms. kristel fung is so sexy')
                 }
                 style={styles.waterbutton}
                 underlayColor='#ffffff'
